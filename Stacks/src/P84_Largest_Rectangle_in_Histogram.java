@@ -1,7 +1,8 @@
 import HelperFiles.StackObj;
 
 public class P84_Largest_Rectangle_in_Histogram {
-    public int largestRectangleArea(int[] heights) {
+
+    public static int largestRectangleArea(int[] heights) {
         StackObj stack = new StackObj(heights.length);
 
         int leftBound;
